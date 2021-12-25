@@ -1,0 +1,53 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1176px;
+  margin: 0 auto;
+  padding: 0 15px;
+//   @media (max-width: 1399px){
+// 	width: 100%;
+// }
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+._ibg {
+	position: relative;	
+}
+._ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+
+
+
+
